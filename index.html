@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Play Again!</title>
+</head>
+
+<body>
+    <header class="container">
+        <button class="btn again" onclick="window.location.reload()">Play Again!</button>
+        <p class="between">(Between 1 and 6)</p>
+    </header>
+
+    <section>
+        <h2>Guess My Number</h2>
+        <div class="number">?</div>
+    </section>
+
+    <main>
+        <div class="inner-main">
+            <input type="number" class="guess"> <br>
+            <button class="btn check">click to check</button>
+        </div>
+
+        <div>
+            <h5 class="message">Please start your guess ...</h5>
+            <h6 class="label-score">Trials: <span class="score">3</span></h6>
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

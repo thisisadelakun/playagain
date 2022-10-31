@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(39, 36, 36);
+    color: white;
+}
+
+/* HEADER */
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 8rem;
+    height: 2rem;
+}
+.between{
+    font-size: 1.5rem;
+}
+
+/* SECTION */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    /* text-align: center; */
+    /* margin-top: 70px; */
+}
+h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+
+}
+.number{
+    background-color: #eee;
+    color: #333;
+    font-size: 6rem;
+    width: 10rem;
+    text-align: center;
+    /* margin: auto; */
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.guess{
+    background:none;
+    border: 4px solid #eee;
+    font-size: 1rem;
+    width: 15rem;
+    height: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.check{
+    /* width: 80%; */
+    position: absolute;
+    left: 10%;
+
+}
+
+:is(.message,.label-score){
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
+.inner-main{
+    position: relative;
+
+}
